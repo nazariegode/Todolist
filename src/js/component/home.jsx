@@ -1,12 +1,12 @@
 import React from "react";
 import fondo from "../../img/fondo.png"
-import Libreta from "./libreta"
+import Todolist from "./libreta";
 
 const Home = () => {
 	return (
 		<>
 			<section style={{ backgroundImage: `url(${fondo})` }}>
-				<Libreta />
+				<Todolist />
 			</section>
 		</>
 	);
